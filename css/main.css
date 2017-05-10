@@ -1,0 +1,166 @@
+  /*@import url(//fonts.googleapis.com/earlyaccess/cwtexkai.css);*/
+  
+  body {
+      font-family: 'cwTeXKai', serif;
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  
+  .start-panel {
+      color: white;
+      width: 68%;
+      height: 68%;
+      margin: auto;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-style: solid;
+      border-color: white;
+      border-width: 1px;
+  }
+  
+  .start-panel h1 {
+      font-size: 3em;
+  }
+  
+  .start-panel h3 {
+      margin-top: 15px;
+      font-size: 1em;
+  }
+  
+  .main-view {
+      width: 90%;
+      height: 70%;
+      min-height: 400px;
+      max-height: 800px;
+      background-color: #FAEBD7;
+  }
+  
+  .main-nav {
+      box-sizing: border-box;
+      color: white;
+      position: absolute;
+      padding: 10px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: left;
+      border-width: 0 0 1px 0;
+      border-style: solid;
+      border-color: white;
+  }
+  
+  .main-nav .main-title {
+      display: inline-block;
+      font-size: 30px;
+  }
+  
+  .main-nav .main-sub-title {
+      display: inline-block;
+  }
+  
+  .text-container {
+      overflow-y: auto;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      font-size: 22px;
+      line-height: 45px;
+      -webkit-writing-mode: vertical-rl;
+      writing-mode: vertical-rl;
+  }
+  
+  .input-area {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 80px;
+      padding: 5px;
+      box-sizing: border-box;
+  }
+  
+  .select-role {
+      cursor: pointer;
+      font-size: 20px;
+      color: white;
+      width: 80px;
+      height: 40px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .select-role:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .select-role .boy {
+      color: #00FFFF;
+  }
+  
+  .boy-title {
+      height: 60px;
+      width: 30px;
+      box-sizing: border-box;
+      display: inline-block;
+      color: #00FFFF;
+      font-weight: bold;
+  }
+  
+  .girl-title {
+      height: 60px;
+      width: 30px;
+      box-sizing: border-box;
+      display: inline-block;
+      color: pink;
+      font-weight: bold;
+  }
+  
+  .select-role .girl {
+      color: pink;
+  }
+  
+  .input {
+      padding-left: 5px;
+      font-size: 25px;
+      color: white;
+      cursor: pointer;
+      margin: 0 15px 0 15px;
+      width: 60%;
+      height: 40px;
+      border-width: 0 0 1px 0;
+      border-style: solid;
+      border-color: white;
+      background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .input:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .sent-text {
+      cursor: pointer;
+      color: red;
+      font-size: 28px;
+      border-width: 2px;
+      border-style: solid;
+      border-color: red;
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
