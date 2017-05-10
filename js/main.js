@@ -10,8 +10,8 @@ var config = {
 firebase.initializeApp(config);
 var database = firebase.database();
 var d = new Date()
-var ref = firebase.database().ref().child(d.getFullYear().toString() + d.getMonth().toString() + d.getDate().toString());
-
+    //var ref = firebase.database().ref().child(d.getFullYear().toString() + d.getMonth().toString() + d.getDate().toString());
+var ref = firebase.database().ref().child("/test");
 
 var role = 0;
 
