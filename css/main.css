@@ -37,7 +37,7 @@
       height: 70%;
       min-height: 400px;
       max-height: 800px;
-      background-color: #FAEBD7;
+      /*background-color: #FAEBD7;*/
   }
   
   .main-nav {
@@ -64,6 +64,7 @@
   }
   
   .text-container {
+      color: white;
       overflow-y: auto;
       box-sizing: border-box;
       width: 100%;
